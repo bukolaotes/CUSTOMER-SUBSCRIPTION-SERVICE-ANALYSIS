@@ -42,6 +42,22 @@ Segmentation Criteria: The customers were segmented based on several criteria:
 
 3. Behavioral: Segmentation by subscription duration and revenue to understand customer engagement and value.
 
+
+  ### Tools
+
+- Excel - Data cleaning and creating of pivot tables
+- postgresql - Data Analytics
+- Power BI - Creating of reports
+
+- ### Data Cleaning/Prepearation
+
+
+1.	Removed duplicate rows .
+2.	standardized product names for consistent analysis across the dataset
+
+
+
+
 4. Analysis and Results
 •	The East region made the highest revenue which came from basic subscription type 20,332,506 in year 2022 and 13,444,229 in year 2023.In year 2022. 
 •	It was also observed that no revenue was made from the south from quarter 3 of year 2022 based premium type and also quarter 3 of year 2023 also based on premium type. 
