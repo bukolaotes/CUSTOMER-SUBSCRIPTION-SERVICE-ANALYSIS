@@ -173,22 +173,10 @@ SELECT
 
 
 
+![image](https://github.com/user-attachments/assets/547cd101-fabf-4323-982d-6f176b9a4351)
 
-number of customers subcription pattern and year									
 
 
-number of customers subcription pattern and year									
-Count of CustomerID	Column Labels								
-	2022				2022 Total	2023			2023 Total
-	Qtr1	Qtr2	Qtr3	Qtr4		Qtr1	Qtr2	Qtr3	
-									
-									
-									
-Row Labels									
-Basic	3383	1673	3399	1718	10173	3378	1690	1680	6748
-Premium	1693	1679		1692	5064	1683	1699		3382
-Standard		1662	1676	1700	5038		1687	1695	3382
-![image](https://github.com/user-attachments/assets/bb12120c-f6e8-416c-b2fb-06bba7b8055e)
 
 
 
