@@ -171,9 +171,18 @@ SELECT
 •	There 18612 number of active subscribers which is 55% of the total customers and 15175 numbers of subscribers that canceled their subscription which is 45% of total customers.
 •	Number of customers in year 2022 was 20,275 while in 2023 it was 13,512.
 
-![image](https://github.com/user-attachments/assets/a9112080-6ff6-4db9-b0a4-19cd0d7d1dea)
 
-![image](https://github.com/user-attachments/assets/114c87a2-5fcd-4809-b6de-133d6c419d08)
+
+![image](https://github.com/user-attachments/assets/8b74e5b4-66ba-4346-a9e8-31d7b9100c68)
+
+
+
+![image](https://github.com/user-attachments/assets/b6281f1c-d522-43f0-af10-5ef666803dbe)
+
+
+
+
+
 
 . Key Findings
 •	 There was no revenue from south and west based on Basic subscription type in year 2022 and 2023
