@@ -56,6 +56,112 @@ Segmentation Criteria: The customers were segmented based on several criteria:
 2.	standardized product names for consistent analysis across the dataset
 
 
+### Data Analytics
+
+
+```
+Create table customer_data(CustomerID integer not null,
+CustomerName varchar(50),
+Region varchar(50),
+SubscriptionType varchar(50),
+SubscriptionStart date,
+SubscriptionEnd date,
+Canceled boolean,
+Revenue integer
+);
+```
+SELECT * FROM customer_data
+
+
+
+------ retrieve the total number of customers from each region----
+```
+SELECT
+  Region,
+  COUNT(*) AS total_customers
+FROM Customer_data
+GROUP BY Region
+```
+
+-------- find the most popular subscription type by the number of customers----
+```
+SELECT
+  SubscriptionType,
+  COUNT(*) AS customer_count
+FROM customer_data
+GROUP BY SubscriptionType
+ORDER BY customer_count DESC
+LIMIT 1
+```
+-------- find customers who canceled their subscription within 6 months-----
+```
+SELECT
+   CustomerID,
+   SubscriptionStart,
+   SubscriptionEnd 
+ FROM customer_data
+ WHERE canceled = TRUE
+   AND subscriptionEnd <=
+ SubscriptionStart + INTERVAL '6 months';
+```
+---- calculate the average subscription duration for all customers. --
+```
+SELECT
+   AVG( SubscriptionEnd  -
+SubscriptionStart) AS
+avg_subscription_duration
+FROM customer_data
+```
+ 
+-------find customers with subscriptions longer than 12 months----
+```
+SELECT
+
+ CustomerID,
+   SubscriptionStart,
+   SubscriptionEnd 
+ FROM customer_data
+ WHERE canceled = TRUE
+   AND subscriptionEnd >=
+ SubscriptionStart + INTERVAL '12 months';
+```
+
+
+ -------- calculate total revenue by subscription type-----
+```
+ SELECT
+   SubscriptionType,
+   SUM(Revenue) AS total_revenue
+   FROM 
+   customer_data
+   GROUP BY subscriptionType
+```
+----------find the top 3 regions by subscription cancellations------
+``
+SELECT
+    Region,
+	COUNT(*) AS cancellation_count
+	FROM 
+	 customer_data
+	 WHERE canceled  = TRUE
+	GROUP BY Region
+	ORDER BY cancellation_count DESC
+	LIMIT 3;
+
+ ```
+-----------find the total number of active and canced suelbscriptions-----
+
+```
+SELECT
+   COUNT(*) FILTER (WHERE
+   canceled = FALSE) AS
+   active_subbscriptions,
+      COUNT(*) FILTER (WHERE
+	  canceled = TRUE) AS
+	  canceled_subscriptions
+	  FROM
+	  customer_data;
+```
 
 
 4. Analysis and Results
