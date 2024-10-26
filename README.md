@@ -172,8 +172,9 @@ SELECT
 •	Number of customers in year 2022 was 20,275 while in 2023 it was 13,512.
 
 
+     ![image](https://github.com/user-attachments/assets/2dc223a7-8d39-45b6-b3c4-2e87a9326451)
 
-![image](https://github.com/user-attachments/assets/547cd101-fabf-4323-982d-6f176b9a4351)
+
 
 
 
