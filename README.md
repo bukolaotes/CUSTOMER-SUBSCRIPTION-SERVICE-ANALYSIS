@@ -28,9 +28,14 @@
 - Canceled: Indicates whether a customer has canceled their subscription (True/False).
 
 
-Data Cleaning: Duplicates were removed from the table
+ 3. ### Data Cleaning/Prepearation
 
-3. Methodology
+
+      1.	Removed duplicate rows .
+      2.	standardized product names for consistent analysis across the dataset
+
+
+4. Methodology
 
 Segmentation Criteria: The customers were segmented based on several criteria:
 
@@ -43,20 +48,15 @@ Segmentation Criteria: The customers were segmented based on several criteria:
 3. Behavioral: Segmentation by subscription duration and revenue to understand customer engagement and value.
 
 
-  ### Tools
+ 5. ### Tools
 
 - Excel - Data cleaning and creating of pivot tables
 - postgresql - Data Analytics
 - Power BI - Creating of reports
 
-- ### Data Cleaning/Prepearation
+  
 
-
-1.	Removed duplicate rows .
-2.	standardized product names for consistent analysis across the dataset
-
-
-### Data Analytics
+6. ### Data Analytics
 
 
 ```
@@ -164,7 +164,7 @@ SELECT
 ```
 
 
-4. Analysis and Results
+7. ### Analysis and Results
 •	The East region made the highest revenue which came from basic subscription type 20,332,506 in year 2022 and 13,444,229 in year 2023.In year 2022. 
 •	It was also observed that no revenue was made from the south from quarter 3 of year 2022 based premium type and also quarter 3 of year 2023 also based on premium type. 
 •	East Region has the highest number of customers which 18,612(25%) of total number of customers which is 33,787 in which the customers are on Basic type of subscription.
@@ -172,38 +172,31 @@ SELECT
 •	Number of customers in year 2022 was 20,275 while in 2023 it was 13,512.
 
 
-     ![image](https://github.com/user-attachments/assets/2dc223a7-8d39-45b6-b3c4-2e87a9326451)
+    
 
 
+8. ### Key Findings
+	-  There was no revenue from south and west based on Basic subscription type in year 2022 and 2023
+	-  It was also observed that no revenue was made from the south from quarter 3 of year 2022 based premium type and also quarter 3 of year 2023 also based on premium type. There 
+           was  no revenue from the standard type in quarter 1 in year 2022 and standard type quarter 1 in year 2023 from the west region
+
+	- It was observed that in west region the customers only subscribed to Standard type subscription
+	- The numbers of customers reduced by 6,762
 
 
+9.  ### Recommendations
+
+     - Retention Campaigns for At-Risk Customers: Implement retention strategies (e.g., loyalty rewards, targeted offers) for customers in. Personalized emails could be sent after 6 
+       months of subscription to encourage renewal.
+
+     - Upselling Opportunities: Focus on upselling Basic subscribers who show potential for higher engagement,. Offering limited-time discounts to upgrade to Premium could incentivize 
+       longer subscriptions.
+
+     - Targeted Marketing: Direct marketing efforts to the East region to address the high churn rate among Basic subscribers. Offering better customer support or incentives like a free 
+       trial extension may reduce early cancellations.
 
 
-
-
-
-
-
-
-
-. Key Findings
-•	 There was no revenue from south and west based on Basic subscription type in year 2022 and 2023
-•	It was also observed that no revenue was made from the south from quarter 3 of year 2022 based premium type and also quarter 3 of year 2023 also based on premium type. There was no revenue from the standard type in quarter 1 in year 2022 and standard type quarter 1 in year 2023 from the west region
-
-•	It was observed that in west region the customers only subscribed to Standard type subscription
-•	The number of customers reduced by 6,762
-
-
- Recommendations
-
-Retention Campaigns for At-Risk Customers: Implement retention strategies (e.g., loyalty rewards, targeted offers) for customers in. Personalized emails could be sent after 6 months of subscription to encourage renewal.
-
-Upselling Opportunities: Focus on upselling Basic subscribers who show potential for higher engagement,. Offering limited-time discounts to upgrade to Premium could incentivize longer subscriptions.
-
-Targeted Marketing: Direct marketing efforts to the East region to address the high churn rate among Basic subscribers. Offering better customer support or incentives like a free trial extension may reduce early cancellations.
-
-
-7. Conclusion
+10. ### Conclusion
 
 This customer segmentation analysis has provided valuable insights into customer behavior across different regions and subscription types. The segmentation reveals patterns that can be leveraged to improve marketing strategies, reduce churn, and increase customer lifetime value.
 
