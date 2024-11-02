@@ -136,9 +136,11 @@ SELECT
    customer_data
    GROUP BY subscriptionType
 ```
+
 ----------find the top 3 regions by subscription cancellations------
-``
-SELECT
+
+```
+    SELECT
     Region,
 	COUNT(*) AS cancellation_count
 	FROM 
@@ -149,7 +151,9 @@ SELECT
 	LIMIT 3;
 
  ```
+
 -----------find the total number of active and canced suelbscriptions-----
+
 
 ```
 SELECT
