@@ -165,16 +165,26 @@ SELECT
 
 
 7. ### Analysis and Results
-•	The East region made the highest revenue which came from basic subscription type 20,332,506 in year 2022 and 13,444,229 in year 2023.In year 2022. 
-•	It was also observed that no revenue was made from the south from quarter 3 of year 2022 based premium type and also quarter 3 of year 2023 also based on premium type. 
-•	East Region has the highest number of customers which 18,612(25%) of total number of customers which is 33,787 in which the customers are on Basic type of subscription.
-•	There 18612 number of active subscribers which is 55% of the total customers and 15175 numbers of subscribers that canceled their subscription which is 45% of total customers.
-•	Number of customers in year 2022 was 20,275 while in 2023 it was 13,512.
 
 
-    
+Number of customers by subscription pattern, year and region
+
+•	East region has the highest number of customers which is 8.488, had 5,122 in year 2022 and 3366 in 2023.Most of the customers were on basic subscription pattern.
+•	The west region has the lowest which is 8,420(5,038 in 2022 and 3,382 in 2023).
+•	It was observed that they was no customer that subscribed to any subscription pattern in quarter 4  of year 2023.
+
+Total Revenue by year subscription type and region
+        
+•	It was observed that in year 2022, Basic subscription has the highest Revenue of 20,332,506, which were from the east and north region (10,242,555 and 10,089,951 Respectively).
+•	Standard subscription pattern has the lowest of 10,079,132 which is from the west region.
+•	In year 2023 the revenue dropped to 13,444,229 in the basic subscription pattern type in east and north region (6,716,208 and 6,723,021) Respectively.
+•	Premium subscription type has the lowest revenue of 6,772,264 from the south region.
+•	It was also observed that in year 2022 quarter 2 and 2023 quarter 3 east regions there was no revenue from the quarters.it also occurred in quarter 4 of 20022 from premium 
+        subscription type in south region.
+•	In quarter 4 of year 2023 there was no revenue from the whole subscription type and region.
 
 
+      
 8. ### Key Findings
 	-  There was no revenue from south and west based on Basic subscription type in year 2022 and 2023
 	-  It was also observed that no revenue was made from the south from quarter 3 of year 2022 based premium type and also quarter 3 of year 2023 also based on premium type. There 
